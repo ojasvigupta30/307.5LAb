@@ -44,7 +44,7 @@
 
     flex: 75%;
     max-width: 75%;
-    
+
 }
 
 .main3{
@@ -54,3 +54,10 @@
     max-width: 25%;
 }
 
+@media screen and (max-width: 600px) {
+    .container2, .main1 {   
+      flex-direction: column;
+      flex: 100%;
+      max-width: 100%;
+    }
+}    
